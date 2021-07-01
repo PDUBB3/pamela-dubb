@@ -1,0 +1,91 @@
+/* box sizing details */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* main body with flex */
+main {
+  display: flex;
+}
+
+/* mainheading background colour and font */
+.mainheading {
+  background-color: #1d3557;
+  padding: 50px;
+}
+
+/* pamela dubb heading styles */
+.mainheading h2 {
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  color: #f1faee;
+  margin: 10px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+/* container details */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: right;
+}
+/* nav heading styles and alignment */
+.container a {
+  float: right;
+  color: #f1faee;
+  text-align: right;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+}
+/* container li details */
+.container li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
+}
+
+/* colour for when hovered over links */
+.container A:hover {
+  background-color: #f1faee;
+  color: rgb(59, 58, 58);
+}
+
+.container a::before {
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #f1faee;
+  content: "";
+  position: absolute;
+  top: 0;
+  transition: all ease-in-out 250ms;
+}
+
+.container a:hover:before {
+  width: 100%;
+}
+
+/* logo alignment on home page */
+.pblogo {
+  padding-top: 50px;
+  text-align: center;
+  display: block;
+  background-size: cover;
+}
+
+/* styling for all h3 */
+h3 {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(75, 74, 74);
+  text-align: center;
+}
+
+/* iframe alignment */
+iframe {
+  align-self: center;
+}
