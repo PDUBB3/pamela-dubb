@@ -85,7 +85,34 @@ h3 {
   text-align: center;
 }
 
+figcaption {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 /* iframe alignment */
 iframe {
   align-self: center;
+}
+
+#pic {
+  height: 370px;
+  width: 300px;
+}
+
+footer {
+  display: block;
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  width: 100%;
+  border-top: 1px solid white;
+  text-align: center;
 }
