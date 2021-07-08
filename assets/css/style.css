@@ -242,3 +242,16 @@ footer {
   border-top: 1px solid white;
   text-align: center;
 }
+/* tablet viewport break-point (max-width 992px)*/
+@media screen and (max-width: 992px) {
+  .myprojects {
+    width: 100%;
+  }
+}
+
+/* mobile viewport break-point (max-width 768px)*/
+@media screen and (max-width: 400px) {
+  .myprojects {
+    width: 100%;
+  }
+}

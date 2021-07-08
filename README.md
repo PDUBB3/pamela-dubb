@@ -61,20 +61,20 @@ code .
 
 ### Screenshot showing homepage of portfolio
 
-![image](./assets/img/pameladubbpage.png "homepage")
+![image](./assets/img/home.png "homepage")
 
 ### Screenshot showing about me page
 
-![image](./assets/img/pameladubbaboutme.png "about me page")
+![image](./assets/img/aboutme.png "about me page")
 
 ### Screenshot showing my projects page
 
-![image](./assets/img/myprojects.png "projectpage")
+![image](./assets/img/projects.png "projectpage")
 
 ### Screenshot showing contact me page
 
-![image](./assets/img/contactme.png "contact me page")
+![image](./assets/img/contact.png "contact me page")
 
 ### Screenshot showing responsive layout on iphone
 
-![image](./assets/img/phone.png "Responsive Layout Screenshot")
+![image](./assets/img/mobile.png "Responsive Layout Screenshot")
