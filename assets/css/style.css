@@ -100,8 +100,10 @@ iframe {
 }
 
 #pic {
-  height: 370px;
-  width: 300px;
+  max-height: 370px;
+  max-width: 300px;
+  height: 100%;
+  width: 100%;
 }
 /* icon size and alignment */
 .fa {

@@ -62,26 +62,38 @@
         <div class="slideshow-container">
           <!-- Full-width images with number and caption text -->
           <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="./assets/img/desktop1.png" style="width: 100%" />
-            <div class="text">Travel Companion || Project 1 </div>
+            <div class="numbertext">1 / 4</div>
+            <img
+              src="./assets/img/desktop1.png"
+              style="width: 100%; height: 500px"
+            />
+            <div class="text">Travel Companion || Project 1</div>
           </div>
 
           <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="./assets/img/desktop3.png" style="width: 100%" />
-            <div class="text">Travel Companion || Travel App </div>
+            <div class="numbertext">2 / 4</div>
+            <img
+              src="./assets/img/desktop3.png"
+              style="width: 100%; height: 500px"
+            />
+            <div class="text">Travel Companion || Travel App</div>
           </div>
 
           <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="./assets/img/all-meals.png" style="width: 100%" />
+            <div class="numbertext">3 / 4</div>
+            <img
+              src="./assets/img/all-meals.png"
+              style="width: 100%; height: 500px"
+            />
             <div class="text">Dish Up || Project 2</div>
           </div>
 
           <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="./assets/img/mealplan.png" style=  "width: 100%" />
+            <div class="numbertext">4 / 4</div>
+            <img
+              src="./assets/img/mealplan.png"
+              style="width: 100%; height: 500px"
+            />
             <div class="text">Dish Up || Meal Prep App</div>
           </div>
           <!-- Next and previous buttons -->
@@ -94,16 +106,14 @@
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
         </div>
       </section>
 
-
-
-       <!-- semantic ui project cards -->
-       <div class="ui special centered cards">
-
-         <!-- semantic ui notetaker project card -->
-         <div class="card">
+      <!-- semantic ui project cards -->
+      <div class="ui special centered cards">
+        <!-- semantic ui notetaker project card -->
+        <div class="card">
           <div class="blurring dimmable image">
             <div class="ui dimmer">
               <div class="content">
@@ -124,18 +134,20 @@
             >
             <div class="meta">
               <span class="description"
-                >In this project, I have created an application called Note taker, that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file.
-
-                The Note Taker app allows the user to be able to write and save notes, so they can organize their thoughts and keep a track of tasks they need to complete.
-               Skills used: HTML layout, CSS styling, Javascript, node.js</span>
+                >In this project, I have created an application called Note
+                taker, that can be used to write and save notes. This
+                application uses an Express.js back end and will save and
+                retrieve note data from a JSON file. The Note Taker app allows
+                the user to be able to write and save notes, so they can
+                organize their thoughts and keep a track of tasks they need to
+                complete. Skills used: HTML layout, CSS styling, Javascript,
+                node.js</span
+              >
             </div>
           </div>
           <!-- semantic ui button wit horiseon github link attached -->
           <div class="ui bottom attached button" id="gitrepo">
-            <a
-              href="https://github.com/PDUBB3/note-taker"
-              target="_blank"
-            >
+            <a href="https://github.com/PDUBB3/note-taker" target="_blank">
               <i class="github icon"></i>
               Git Repo Link
             </a>
@@ -143,39 +155,42 @@
         </div>
         <!-- semantic ui techblog project card -->
         <div class="card">
-            <div class="blurring dimmable image">
-              <div class="ui dimmer">
-                <div class="content">
-                  <div class="center">
-                    <div class="ui inverted button">Live Url Link</div>
-                  </div>
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <div class="ui inverted button">Live Url Link</div>
                 </div>
               </div>
-              <img src="./assets/img/editblog.png" id="projectimage" />
             </div>
-            <div class="content">
-              <a
-                class="header"
-                href="https://pdubb3.github.io/tech-blog-mvc/"
-                target="_blank"
-                >Tech Blog</a
+            <img src="./assets/img/editblog.png" id="projectimage" />
+          </div>
+          <div class="content">
+            <a
+              class="header"
+              href="https://pdubb3.github.io/tech-blog-mvc/"
+              target="_blank"
+              >Tech Blog</a
+            >
+            <div class="meta">
+              <span class="description">
+                In this project, I have built a CMS-style blog site similar to a
+                Wordpress site, where developers can publish their blog posts
+                and comment on other developers' posts as well. The app I have
+                created follows the MVC paradigm in its architectural structure,
+                using Handlebars.js as the templating language, Sequelize as the
+                ORM, and the express-session npm package for
+                authentication.</span
               >
-              <div class="meta">
-                <span class="description">
-                  In this project, I have built a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers' posts as well. The app I have created follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.</span
-                >
-              </div>
             </div>
-            <!-- semantic ui button wit weather dashboard github link attached -->
-            <div class="ui bottom attached button" id="gitrepo">
-              <a
-                href="https://github.com/PDUBB3/tech-blog-mvc"
-                target="_blank"
-              >
-                <i class="github icon"></i>
-                Git Repo Link
-              </a>
-            </div>
+          </div>
+          <!-- semantic ui button wit weather dashboard github link attached -->
+          <div class="ui bottom attached button" id="gitrepo">
+            <a href="https://github.com/PDUBB3/tech-blog-mvc" target="_blank">
+              <i class="github icon"></i>
+              Git Repo Link
+            </a>
+          </div>
         </div>
         <!-- semantic ui e-commerce back end project card -->
         <div class="card">
@@ -198,7 +213,10 @@
             >
             <div class="meta">
               <span class="description">
-                In this project, a back end for an e-commerce site has been built by modifying starter code. Express.js API has been used to use sequelize to interact with a MySQL database.>
+                In this project, a back end for an e-commerce site has been
+                built by modifying starter code. Express.js API has been used to
+                use sequelize to interact with a MySQL database.</span
+              >
             </div>
           </div>
           <!-- semantic ui button wit ecommerce back end github link attached -->
@@ -237,9 +255,8 @@
                 In this project, I have created a travel app which allows the
                 user to find information about the countries of the world it
                 includes information such as, language spoken, currency
-                converter, vaccines and places to see. Skills used: HTML
-                layout, CSS styling, Semantic UI Framework, Javascript,
-                jQuery.</span
+                converter, vaccines and places to see. Skills used: HTML layout,
+                CSS styling, Semantic UI Framework, Javascript, jQuery.</span
               >
             </div>
           </div>
@@ -272,7 +289,12 @@
             >
             <div class="meta">
               <span class="description">
-                In this project, I have built a solution for managing a company's employees using node, inquirer and MySQL. I have designed a database schema containing three tables#; employee, role and department for the company so the user can organize and plan their business.>
+                In this project, I have built a solution for managing a
+                company's employees using node, inquirer and MySQL. I have
+                designed a database schema containing three tables#; employee,
+                role and department for the company so the user can organize and
+                plan their business.</span
+              >
             </div>
           </div>
           <!-- semantic ui button wit employee tracker github link attached -->
@@ -288,78 +310,84 @@
         </div>
         <!-- semantic ui weather dashboard project card -->
         <div class="card">
-            <div class="blurring dimmable image">
-              <div class="ui dimmer">
-                <div class="content">
-                  <div class="center">
-                    <div class="ui inverted button">Live Url Link</div>
-                  </div>
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <div class="ui inverted button">Live Url Link</div>
                 </div>
               </div>
-              <img src="./assets/img/weatherdashboard.png" id="projectimage" />
             </div>
-            <div class="content">
-              <a
-                class="header"
-                href="https://pdubb3.github.io/weather-dashboard/"
-                target="_blank"
-                >Weather Dashboard</a
+            <img src="./assets/img/weatherdashboard.png" id="projectimage" />
+          </div>
+          <div class="content">
+            <a
+              class="header"
+              href="https://pdubb3.github.io/weather-dashboard/"
+              target="_blank"
+              >Weather Dashboard</a
+            >
+            <div class="meta">
+              <span class="description">
+                In this project, I have created a weather dashboard using an
+                API, which allows weather data for the next 5 days to be
+                retrieved and displayed onto the dashboard once a city is
+                searched by the user via the search bar. Skills used: HTML
+                layout, Javascript, CSS styling, Web API</span
               >
-              <div class="meta">
-                <span class="description">
-                  In this project, I have created a weather dashboard using an
-                  API, which allows weather data for the next 5 days to be
-                  retrieved and displayed onto the dashboard once a city is
-                  searched by the user via the search bar. Skills used: HTML
-                  layout, Javascript, CSS styling, Web API</span
-                >
-              </div>
             </div>
-            <!-- semantic ui button wit weather dashboard github link attached -->
-            <div class="ui bottom attached button" id="gitrepo">
-              <a
-                href="https://github.com/PDUBB3/weather-dashboard"
-                target="_blank"
-              >
-                <i class="github icon"></i>
-                Git Repo Link
-              </a>
-            </div>
+          </div>
+          <!-- semantic ui button wit weather dashboard github link attached -->
+          <div class="ui bottom attached button" id="gitrepo">
+            <a
+              href="https://github.com/PDUBB3/weather-dashboard"
+              target="_blank"
+            >
+              <i class="github icon"></i>
+              Git Repo Link
+            </a>
+          </div>
         </div>
         <!-- semantic ui team profile generator project card -->
         <div class="card">
-  <div class="blurring dimmable image">
-    <div class="ui dimmer">
-      <div class="content">
-        <div class="center">
-          <div class="ui inverted button">Live Url Link</div>
-        </div>
-      </div>
-    </div>
-    <img src="./assets/img/teamprofile.png" id="projectimage" />
-  </div>
-  <div class="content">
-    <a
-      class="header"
-      href="https://pdubb3.github.io/team-profile-generator/"
-      target="_blank"
-      >Team Profile Generator</a
-    >
-    <div class="meta">
-      <span class="description">
-        In this project, I have build a node.js command line application that takes in information about employees on a software engineering team, then generates a HTML webpage that displays summaries for each person. I have also tested the code by writing a unit test for every part of the code, to ensure the code is maintainable and passes each test.>
-    </div>
-  </div>
-  <!-- semantic ui button wit employee tracker github link attached -->
-  <div class="ui bottom attached button" id="gitrepo">
-    <a
-      href="https://github.com/PDUBB3/team-profile-generator"
-      target="_blank"
-    >
-      <i class="github icon"></i>
-      Git Repo Link
-    </a>
-  </div>
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <div class="ui inverted button">Live Url Link</div>
+                </div>
+              </div>
+            </div>
+            <img src="./assets/img/teamprofile.png" id="projectimage" />
+          </div>
+          <div class="content">
+            <a
+              class="header"
+              href="https://pdubb3.github.io/team-profile-generator/"
+              target="_blank"
+              >Team Profile Generator</a
+            >
+            <div class="meta">
+              <span class="description">
+                In this project, I have build a node.js command line application
+                that takes in information about employees on a software
+                engineering team, then generates a HTML webpage that displays
+                summaries for each person. I have also tested the code by
+                writing a unit test for every part of the code, to ensure the
+                code is maintainable and passes each test.</span
+              >
+            </div>
+          </div>
+          <!-- semantic ui button wit employee tracker github link attached -->
+          <div class="ui bottom attached button" id="gitrepo">
+            <a
+              href="https://github.com/PDUBB3/team-profile-generator"
+              target="_blank"
+            >
+              <i class="github icon"></i>
+              Git Repo Link
+            </a>
+          </div>
         </div>
         <!-- semantic ui read me generator project card -->
         <div class="card">
@@ -382,7 +410,10 @@
             >
             <div class="meta">
               <span class="description">
-                In this project, I have created a command-line application that dynamically generates a professional README file from a users input using the inquirer package and Node.js.>
+                In this project, I have created a command-line application that
+                dynamically generates a professional README file from a users
+                input using the inquirer package and Node.js.</span
+              >
             </div>
           </div>
           <!-- semantic ui button with read me generator github link attached -->
@@ -417,7 +448,11 @@
             >
             <div class="meta">
               <span class="description">
-                In this project, I have created a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.>
+                In this project, I have created a simple calendar application
+                that allows a user to save events for each hour of the day by
+                modifying starter code. This app runs in the browser and feature
+                dynamically updated HTML and CSS powered by jQuery.</span
+              >
             </div>
           </div>
           <!-- semantic ui button with work day schedule github link attached -->
@@ -496,14 +531,14 @@
                 fundamentals which stores high scores, so that progress can be
                 compared to my peers and viewed on a highscores page. The quiz
                 contains 5 questions. Once the user starts the quiz, the timer
-                is automatically initiated and the first question with 5
-                answer choices appear on the screen. If the user clicks on a
-                correct, they move onto the next question. If they click on a
-                incorrect answer, they will not move onto the next question
-                and 5 second will be deducted from the remaining time for
-                completing the quiz. Once they have completed the quiz, the
-                user can enter their initials onto the scoreboard. Skills
-                used: HTML layout, CSS styling and Javascript.</span
+                is automatically initiated and the first question with 5 answer
+                choices appear on the screen. If the user clicks on a correct,
+                they move onto the next question. If they click on a incorrect
+                answer, they will not move onto the next question and 5 second
+                will be deducted from the remaining time for completing the
+                quiz. Once they have completed the quiz, the user can enter
+                their initials onto the scoreboard. Skills used: HTML layout,
+                CSS styling and Javascript.</span
               >
             </div>
           </div>
@@ -516,15 +551,14 @@
           </div>
         </div>
       </div>
-    </section>
-  </main>
+    </main>
     <!-- footer section -->
     <footer class="footer border-top py-3 text-align centered">
       <div>Created by Pamela Dubb 2021</div>
     </footer>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/javascript<ntic.min.js"></script>
-  <script src="http://cdn.jsdelivr.net/jquery.glide/1.0.6/jquery.glide.min.js"></script>
-  <script src="./assets/js/project.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/javascript<ntic.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.glide/1.0.6/jquery.glide.min.js"></script>
+    <script src="./assets/js/project.js"></script>
   </body>
 </html>
