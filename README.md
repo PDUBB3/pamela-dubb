@@ -10,7 +10,7 @@
 
 ## Project link
 
-Click [here](https://pdubb3.github.io/updated-pamela-portfolio/) to view project on Github pages
+Click [here](https://pdubb3.github.io/pamela-dubb/) to view project on Github pages
 
 ## Description
 
